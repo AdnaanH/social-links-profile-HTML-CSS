@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+h2{
+    color: hsl(75, 94%, 57%);
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: .5em;
+}
+
+h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 0.95em;
+    font-weight: 400;
+    margin-top: 1.25em;
+}
+
+a{
+    color: hsl(0, 0%, 100%);
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-height: 50%;
+    padding: 2.5em;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 8px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar{
+    width: 30%;
+}
+
+.avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75em;
+    margin-top: 1em;
+}
+
+.links a{
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    padding: 1em;
+    border-radius: 7px;
+}
+.links a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+@media screen and (max-width: 450px) {
+ .container{
+    width: 98%;
+ }   
+}
